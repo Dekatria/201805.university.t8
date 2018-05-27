@@ -1,0 +1,23 @@
+Find pure strategy NE
+1. if finite strategy sets:
+	compare u_i(a_i, a_{-i})\geq u_i(a_i^', a_{-i}^')
+2. if infinite strategy sets:
+	compute via 
+	a_i^* = \argmax_{a_i\in A_i}u_i(a_i, a_{-i}^*)
+	\forall i \in [1,n]
+
+
+[[(-100,-1000), (-5, 5)*],
+[(5, -5)*,(-10, -10)]]
+
+y_i = (20 - x_i) + 0.4 (\sum_{j\in A} x_j)
+
+y_i = (20 - x_i) + 0.4*n*x_i
+= 20 - x_i + 1.6*x_i
+= 20 + 0.6*x_i
+
+y_i = 1 - 0.5(|x_i-x_{-i}|)
+
+[[(10,10),(14,12),(14,15)],
+[(12,14),(20,20),(28,15)],
+[(15,14),(15,28),(25,25)]]
