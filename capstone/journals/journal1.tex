@@ -1,0 +1,100 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+\usepackage{lipsum} %This package just generates Lorem Ipsum filler text. 
+\usepackage{fullpage} % changes the margin
+\usepackage{enumitem}
+\usepackage{qtree}
+
+\begin{document}
+%Header-Make sure you update this information!!!!
+\noindent
+\large\textbf{Individual Design Journal 5} \hfill \textbf{Basil R. Yap} \\
+%\normalsize ECE 100-003 \hfill Teammates: Student1, Student2 \\
+2018 -- Capstone 7 \hfill Journal Date: 2018/05/25 \\
+Project 61: Steelcase \hfill Due Date: 2018/05/27
+
+\section*{Problem Statement}
+
+For the Week 1 of Term 8, the focus of the group is centred around the implementation of the designs we proposed in Term 7. In order to do so in a timely manner, the team and I are moving forward by de-
+constructing our deliverables backwards from submission to implementation, from Showcase to the current week.\\
+
+Therefore, the problems tackled since the start of the term are as follows:\begin{enumerate}[label=\alph*)]
+\item De-constructing deliverables and making a work plan for Term 8 *\\
+
+Creating a work plan would be vital to the progression of the project for Term 8. With each sub-team working relatively independently, it is important that each sub-team is aware of the deliverables/progress of all other sub-teams. It also allows us to plan for contingencies, if required.
+\item Implementing \textit{Container Loading Optimization} algorithms suggested in Term 7\\
+
+As we enter into the Implementation/Prototyping phase of the project, we are pressed for time to implement the various algorithms suggested. Implementation is vital to the benchmarking process, without which we cannot determine the compare effectiveness between algorithms.
+\end{enumerate} 
+
+* The work plan I will be referring to for the remainder of the Journal will be with respect to the \textit{Container Loading Optimization}, as that is the component of the project that I am working on for the remainder of this project.
+
+\section*{De-constructing deliverables and making a work plan}
+
+After some discussions with the team, we concluded with the following list of deliverables for the Final Showcase:\begin{enumerate}[label=\alph*)]
+\item Scaled down model of mechanisms in packaging design
+\item Interactive interface for \textit{Container Loading} and \textit{Box Dimension} algorithms.
+\item Posters and other visual aide
+\end{enumerate}
+
+\pagebreak
+Working backwards, we can breakdown the deliverables into the following components:\\
+
+\Tree[.{Final Showcase} [.{Scaled Model} ]
+          [.{Interactive UI} [.Frontend \textit{UI Design} ]
+                [.Backend [.Algorithms [.\textit{Container Loading} ]
+                           [.\textit{Box Dimension}
+                                ]][.\textit{Hosting/Compiling} ]]]]\\
+
+Breaking down the deliverables, my proposed work plan for Term 8 is as follows:\begin{enumerate}[label=\textbf{Week \arabic*:}]
+\item Work assignment and planning
+\item Implementation of proposed algorithms in Python
+\item Benchmark algorithms for packing efficiency and runtime
+\item Attempt basic UI design to visualise solution
+\item Integration between UI and algorithm \& \\Research options for Hosting/Compiling application
+\item \textbf{Review 3}
+\item \textit{Buffer time}, clear backlog (if any)
+\item Address implementation concerns for Steelcase management team
+\item Further UI designs with emphasis on UX
+\item Debug and Re-factor application
+\item Final preparations for Final Showcase
+\item \textbf{Final Showcase}
+\item \textbf{Final Report}
+\end{enumerate}
+
+\pagebreak
+
+\section*{Implementing \textit{Container Loading Optimization} algorithms}
+
+At the end of Term 7, I concluded that the algorithms can be classified into three categories:
+\begin{enumerate}[label=\arabic*)]
+\item \textbf{Class 0}: Simple Heuristics\begin{itemize}
+\item Easy to understand
+\item No computation required
+\end{itemize}
+\item \textbf{Class 1}: Simple Algorithms\begin{itemize}
+\item Good Average Optimality
+\item Minimal computation required
+\end{itemize}
+\item \textbf{Class 2}: Complex Algorithms / Mathematical Program\begin{itemize}
+\item (Close to or) Exact Optimal Solution
+\item Heavy computation required
+\item Difficult to debug
+\end{itemize}
+\end{enumerate}
+
+From the 3 classes, we concluded that \textbf{Class 1} was the best option when considering Steelcase Malaysia's current technology infrastructure and operation flow.\\
+
+Currently in the progress of implementation are:\begin{enumerate}
+\item Extreme Point-Based Heuristics\cite{Extreme}
+\item Branch and Bound with pricing oracle\cite{Bnb}
+\item Tabu Search with diversification phase\cite{Tabu}
+\end{enumerate}
+
+\begin{thebibliography}{9}
+\bibitem{Extreme} Crainic,T. G, \& Perboli, G., \& Tadei, R. (2007) Extreme Point-Based Heuristics for Three-Dimensional Bin Packing. \emph{INFORMS Journal on Computing}, \emph{20}(3). 368 - 384.
+\bibitem{Bnb}  Sadykov, R., \& Vanderbeck, F. (2010) Bin Packing with Conflicts: A Generic Branch-and-Price Algorithm. \emph{INFORMS Journal on Computing}, \emph{25}(2). 244 - 255.
+\bibitem{Tabu}  Muritiba, A. F., \& Iori, M., \& Malaguti, E., \& Toth, P. (2010) Algorithms for the Bin Packing Problem with Conflicts. \emph{INFORMS Journal on Computing}, \emph{25}(2). 244 - 255.
+\end{thebibliography}
+
+\end{document}

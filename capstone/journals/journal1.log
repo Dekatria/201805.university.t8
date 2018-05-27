@@ -1,0 +1,276 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  28 MAY 2018 02:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**journal1.tex
+(./journal1.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count87
+) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks14
+\labelindent=\skip44
+\enit@outerparindent=\dimen103
+\enit@toks=\toks15
+\enit@inbox=\box26
+\enitdp@description=\count88
+)
+(/usr/share/texmf-dist/tex/latex/qtree/qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+(/usr/share/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(/usr/share/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+(/usr/share/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+\pIIe@GRAPH=\toks16
+\@arclen=\dimen104
+\@arcrad=\dimen105
+\@tempdimd=\dimen106
+)
+\c@treecount=\count89
+\c@branchcount=\count90
+\parentbox=\box27
+\treebox=\box28
+\treeboxone=\box29
+\treeboxtwo=\box30
+\treeboxthree=\box31
+\treeboxfour=\box32
+\treeboxfive=\box33
+\treeboxsix=\box34
+\treeboxseven=\box35
+\treeboxeight=\box36
+\treeboxnine=\box37
+\treeboxten=\box38
+\treeboxeleven=\box39
+\treeboxtwelve=\box40
+\treeboxthirteen=\box41
+\treeboxfourteen=\box42
+\treeboxfifteen=\box43
+\treeboxsixteen=\box44
+\treeboxseventeen=\box45
+\treeboxeighteen=\box46
+\treeboxnineteen=\box47
+\treeboxtwenty=\box48
+\treeoffsetone=\skip45
+\treeoffsettwo=\skip46
+\treeoffsetthree=\skip47
+\treeoffsetfour=\skip48
+\treeoffsetfive=\skip49
+\treeoffsetsix=\skip50
+\treeoffsetseven=\skip51
+\treeoffseteight=\skip52
+\treeoffsetnine=\skip53
+\treeoffsetten=\skip54
+\treeoffseteleven=\skip55
+\treeoffsettwelve=\skip56
+\treeoffsetthirteen=\skip57
+\treeoffsetfourteen=\skip58
+\treeoffsetfifteen=\skip59
+\treeoffsetsixteen=\skip60
+\treeoffsetseventeen=\skip61
+\treeoffseteighteen=\skip62
+\treeoffsetnineteen=\skip63
+\treeoffsettwenty=\skip64
+\treeshiftone=\skip65
+\treeshifttwo=\skip66
+\treeshiftthree=\skip67
+\treeshiftfour=\skip68
+\treeshiftfive=\skip69
+\treeshiftsix=\skip70
+\treeshiftseven=\skip71
+\treeshifteight=\skip72
+\treeshiftnine=\skip73
+\treeshiftten=\skip74
+\treeshifteleven=\skip75
+\treeshifttwelve=\skip76
+\treeshiftthirteen=\skip77
+\treeshiftfourteen=\skip78
+\treeshiftfifteen=\skip79
+\treeshiftsixteen=\skip80
+\treeshiftseventeen=\skip81
+\treeshifteighteen=\skip82
+\treeshiftnineteen=\skip83
+\treeshifttwenty=\skip84
+\treewidthone=\skip85
+\treewidthtwo=\skip86
+\treewidththree=\skip87
+\treewidthfour=\skip88
+\treewidthfive=\skip89
+\treewidthsix=\skip90
+\treewidthseven=\skip91
+\treewidtheight=\skip92
+\treewidthnine=\skip93
+\treewidthten=\skip94
+\treewidtheleven=\skip95
+\treewidthtwelve=\skip96
+\treewidththirteen=\skip97
+\treewidthfourteen=\skip98
+\treewidthfifteen=\skip99
+\treewidthsixteen=\skip100
+\treewidthseventeen=\skip101
+\treewidtheighteen=\skip102
+\treewidthnineteen=\skip103
+\treewidthtwenty=\skip104
+\daughteroffsetone=\skip105
+\daughteroffsettwo=\skip106
+\daughteroffsetthree=\skip107
+\daughteroffsetfour=\skip108
+\branchwidthone=\skip109
+\branchwidthtwo=\skip110
+\branchwidththree=\skip111
+\branchwidthfour=\skip112
+\parentoffset=\skip113
+\treeoffset=\skip114
+\daughteroffset=\skip115
+\branchwidth=\skip116
+\parentwidth=\skip117
+\treewidth=\skip118
+\qta=\toks17
+\qtb=\toks18
+\nbranches=\count91
+\qroofx=\count92
+\qroofy=\count93
+\@qrscratchbox=\box49
+) (./journal1.aux)
+\openout1 = `journal1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen107
+\scratchbox=\box50
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen108
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks20
+)
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 44.
+
+Overfull \hbox (8.13312pt too wide) in paragraph at lines 43--48
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--48
+
+ []
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+[3] (./journal1.aux) ) 
+Here is how much of TeX's memory you used:
+ 1629 strings out of 492982
+ 21446 string characters out of 6138579
+ 185905 words of memory out of 5000000
+ 5224 multiletter control sequences out of 15000+600000
+ 8294 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 26i,7n,22p,304b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb>
+Output written on journal1.pdf (3 pages, 82400 bytes).
+PDF statistics:
+ 38 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
