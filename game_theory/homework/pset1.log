@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  26 MAY 2018 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  31 MAY 2018 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -802,38 +802,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+PGFPlots: reading {pset1.csv}
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 <./assets/201805201650.png, id=32, 792.9625pt x 406.51875pt>
 File: ./assets/201805201650.png Graphic file (type png)
 <use ./assets/201805201650.png>
-Package pdftex.def Info: ./assets/201805201650.png  used on input line 203.
+Package pdftex.def Info: ./assets/201805201650.png  used on input line 213.
 (pdftex.def)             Requested size: 469.75502pt x 240.83025pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
 [5 <./assets/201805201650.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
@@ -848,12 +839,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--233
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
@@ -861,20 +862,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--270
 <./assets/201805201651.png, id=44, 793.96625pt x 226.8475pt>
 File: ./assets/201805201651.png Graphic file (type png)
 <use ./assets/201805201651.png>
-Package pdftex.def Info: ./assets/201805201651.png  used on input line 300.
+Package pdftex.def Info: ./assets/201805201651.png  used on input line 310.
 (pdftex.def)             Requested size: 469.75502pt x 134.2196pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
  []
 
 [8 <./assets/201805201651.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 323--325
+Underfull \hbox (badness 10000) in paragraph at lines 333--335
 
  []
 
@@ -882,27 +883,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--325
 <./assets/201805201652.png, id=51, 794.97pt x 448.67625pt>
 File: ./assets/201805201652.png Graphic file (type png)
 <use ./assets/201805201652.png>
-Package pdftex.def Info: ./assets/201805201652.png  used on input line 339.
+Package pdftex.def Info: ./assets/201805201652.png  used on input line 349.
 (pdftex.def)             Requested size: 469.75502pt x 265.13431pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--363
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
 
  []
 
 [10 <./assets/201805201652.png>] (./pset1.aux) ) 
 Here is how much of TeX's memory you used:
- 23537 strings out of 492982
- 598715 string characters out of 6138579
+ 23605 strings out of 492982
+ 600153 string characters out of 6138579
  794581 words of memory out of 5000000
- 26674 multiletter control sequences out of 15000+600000
+ 26740 multiletter control sequences out of 15000+600000
  14149 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,10n,119p,726b,2034s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,17n,119p,726b,2228s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
@@ -913,7 +914,7 @@ ic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on pset1.pdf (10 pages, 338992 bytes).
+Output written on pset1.pdf (10 pages, 340089 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream

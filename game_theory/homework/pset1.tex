@@ -115,8 +115,8 @@ Best Response Graph:\\
 \begin{tikzpicture}
 \begin{axis}[
     axis lines = left,
-    xlabel = {$s_2,s_1$},
-    ylabel = {$BR_1(s_2),BR_2(s_1)$},
+    xlabel = {$s_2$},
+    ylabel = {$s_1$},
     xmax = 1.2,
     ymax = 1.2
 ]
@@ -168,19 +168,20 @@ Best Response for both Candidates:\\
 \begin{align*}
 \frac{s_j}{(s_i+s_j)^2}-1&=0\\
 s_j&=(s_i+s_j)^2\\
-\pm\sqrt{s_j}=s_i+s_j\\
+\pm\sqrt{s_j}&=s_i+s_j\\
 s_i&=-s_j\pm\sqrt{s_j}\\
 BR_i(s_j)&=-s_j\pm\sqrt{s_j}\\
-&=\sqrt{s_j}-s_j\ \ \ \ \because s_j\geq0
+&=\sqrt{s_j}-s_j\ \ \ \ \because s_i\geq0
 \end{align*}
-
+\pagebreak
 \item Best Response Graph:\\
 
 \begin{tikzpicture}
 \begin{axis}[
     axis lines = left,
-    xlabel = {$s_2,s_1$},
-    ylabel = {$BR_1(s_2),BR_2(s_1)$},
+    xlabel = {$s_1$},
+    ylabel = {$s_2$},
+    ymax = 1
 ]
 \addplot [
     domain=0:1, 
@@ -188,12 +189,21 @@ BR_i(s_j)&=-s_j\pm\sqrt{s_j}\\
     color=blue
 ]
 {-x+(x^0.5)};
+\addplot[color=red]
+ table[
+	x=x,
+	y=y,
+	col sep=comma
+] {pset1.csv};
+\legend{$BR_1(s_2)$,$BR_2(s_1)$}
+\node[label={45:{(0.25,0.25)}},circle,fill,inner sep=2pt] at (axis cs:0.25, 0.25){};
+\node[label={45:{(0.25,0.25)}},circle,fill,inner sep=2pt] at (axis cs:0, 0){};
 \end{axis}
 \end{tikzpicture}
 
 Therefore, the Nash equilibria can be found at:\\
 
-$(s_1,s_2)\text{  where }s_1=\sqrt{s_2}-s_2$
+(0, 0) and (0.25, 0.25)
 
 \end{enumerate}
 \end{solution}
@@ -328,7 +338,7 @@ P&=\max\{\alpha-nq^*,0\}\\
 &=\max\{\alpha-n(\frac{\alpha-c}{2n}),0\}\\
 &=\max\{\alpha-\frac{\alpha-c}{2},0\}
 \end{align*}
-As $n$ increases, there is to change to the equilibrium price.\\
+As $n$ increases, there is no change to the equilibrium price.\\
 But the optimal production quantity $q^*$ decreases as $n$ increases.
 \end{solution}
 
@@ -356,10 +366,10 @@ Let $p$ be the probability of the row player picking \textit{No Effort}.
 $$p^*=1-c$$
 $$\because \text{ pay-off matrix is symmetric.}$$
 
-Nash Equilibria for the game: ($1-c$,$1-c$),($c$,$c$) for $c\in(0,1)$\\
+Nash Equilibrium for the game: [($1-c$,$c$),($1-c$,$c$)] for $c\in(0,1)$\\
 
-When $c\in\{0,1\}$, only a pure strategy Nash Equilibrium exists,\\
-(\textit{No Effort},\textit{No Effort}) for $c=0$ and (\textit{Effort},\textit{Effort}) for $c=1$.\\
+When $c\in\{0,1\}$, there are two pure strategy Nash Equilibrium,\\
+(\textit{No Effort},\textit{No Effort}) and (\textit{Effort},\textit{Effort}).\\
 
 When $c\in(0,1)$, the mix strategy Nash Equilibria exists and \\
 tends towards (\textit{Effort},\textit{Effort}) as $c$ increases.
