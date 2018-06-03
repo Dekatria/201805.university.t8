@@ -1,0 +1,100 @@
+\documentclass[12pt]{article}
+
+\usepackage{answers}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{mathrsfs}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{pgfplots}
+\usepackage{listings}
+\pgfplotsset{compat=1.15}
+\usepgfplotslibrary{fillbetween}
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\csch}{csch}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{definition}[2][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{proposition}[2][Proposition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{solution}[2][Solution]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+\title{Problem Set 2}%replace with the appropriate homework number
+\author{Basil R. Yap\\ %replace with your name
+50.021 Artificial Intelligence - Term 8} %if necessary, replace with your course title
+\date{May 27, 2018}
+\maketitle
+%Below is an example of the problem environment
+
+\section{Theory Component}
+% Question 1
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201806022206.png}
+\end{figure}
+\begin{enumerate}[label=\alph*)]
+\item What is the total size of $C$'s output feature map?
+\item What is the total size of $P$'s output feature map? 
+\end{enumerate}
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201806022208.png}
+\end{figure}
+\begin{enumerate}
+\item[c)] How many FLOPs layer $C$ and $P$ cost in total to do one forward pass?
+\end{enumerate}
+
+\begin{solution}{}~
+\begin{enumerate}[label=\alph*)]
+\item Input size: $14\times14\times\times30=5880$\\
+
+
+\item 
+\item 
+\end{enumerate}
+\end{solution}
+
+% Question 2
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201806022242.png}
+\includegraphics[width=\linewidth]{./assets/201806022243.png}
+\end{figure}
+
+\begin{solution}{}~
+
+\end{solution}
+
+\section{Coding Component}
+
+ % \lstinputlisting[language=Python]{pset2.py}
+
+\begin{thebibliography}{9}
+\bibitem{proof1} Ng, A. (2000). CS229 Lecture notes. \emph{CS229 Lecture notes}, \emph{1}(1), 11.
+\end{thebibliography}
+
+\end{document}

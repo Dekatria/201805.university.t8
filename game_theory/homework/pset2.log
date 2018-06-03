@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  2 JUN 2018 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  2 JUN 2018 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**pset1.tex
-(./pset1.tex
+**pset2.tex
+(./pset2.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -578,8 +578,8 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (./pset1.aux)
-\openout1 = `pset1.aux'.
+))) (./pset2.aux)
+\openout1 = `pset2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
@@ -787,7 +787,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[4 <./assets/201806021730.png>] (./pset1.aux) ) 
+[4 <./assets/201806021730.png>] (./pset2.aux) ) 
 Here is how much of TeX's memory you used:
  23015 strings out of 492982
  584668 string characters out of 6138579
@@ -800,7 +800,7 @@ Here is how much of TeX's memory you used:
 e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
 fb>
-Output written on pset1.pdf (4 pages, 748622 bytes).
+Output written on pset2.pdf (4 pages, 748622 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
