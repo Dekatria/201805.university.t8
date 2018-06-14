@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  2 JUN 2018 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  11 JUN 2018 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,100 +710,214 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./assets/201806021724.png, id=4, 1462.46375pt x 512.91624pt>
-File: ./assets/201806021724.png Graphic file (type png)
-<use ./assets/201806021724.png>
-Package pdftex.def Info: ./assets/201806021724.png  used on input line 56.
-(pdftex.def)             Requested size: 469.75502pt x 164.75484pt.
+<./assets/201805201632.png, id=4, 799.98875pt x 488.82625pt>
+File: ./assets/201805201632.png Graphic file (type png)
+<use ./assets/201805201632.png>
+Package pdftex.def Info: ./assets/201805201632.png  used on input line 56.
+(pdftex.def)             Requested size: 469.75502pt x 287.04001pt.
+Missing character: There is no â in font cmti12!
+Missing character: There is no € in font cmti12!
+Missing character: There is no ™ in font cmti12!
+Missing character: There is no â in font cmti12!
+Missing character: There is no € in font cmti12!
+Missing character: There is no ™ in font cmti12!
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+ [1
 
- []
-
-<./assets/201806021725.png, id=5, 1465.475pt x 749.80125pt>
-File: ./assets/201806021725.png Graphic file (type png)
-<use ./assets/201806021725.png>
-Package pdftex.def Info: ./assets/201806021725.png  used on input line 76.
-(pdftex.def)             Requested size: 469.75502pt x 240.34174pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-<./assets/201806021726.png, id=6, 1444.39626pt x 811.03pt>
-File: ./assets/201806021726.png Graphic file (type png)
-<use ./assets/201806021726.png>
-Package pdftex.def Info: ./assets/201806021726.png  used on input line 85.
-(pdftex.def)             Requested size: 469.75502pt x 263.76726pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/201806021724.png>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/201805201632.png>
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+<./assets/201805201646.png, id=16, 796.9775pt x 128.48pt>
+File: ./assets/201805201646.png Graphic file (type png)
+<use ./assets/201805201646.png>
+Package pdftex.def Info: ./assets/201805201646.png  used on input line 96.
+(pdftex.def)             Requested size: 469.75502pt x 75.72803pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-[2 <./assets/201806021725.png> <./assets/201806021726.png>]
-<./assets/201806021727.png, id=18, 1464.47125pt x 510.90875pt>
-File: ./assets/201806021727.png Graphic file (type png)
-<use ./assets/201806021727.png>
-Package pdftex.def Info: ./assets/201806021727.png  used on input line 101.
-(pdftex.def)             Requested size: 469.75502pt x 163.88393pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<./assets/201806021728.png, id=19, 1461.46pt x 44.165pt>
-File: ./assets/201806021728.png Graphic file (type png)
-<use ./assets/201806021728.png>
-Package pdftex.def Info: ./assets/201806021728.png  used on input line 110.
-(pdftex.def)             Requested size: 469.75502pt x 14.19576pt.
-<./assets/201806021729.png, id=20, 1460.45625pt x 762.85pt>
-File: ./assets/201806021729.png Graphic file (type png)
-<use ./assets/201806021729.png>
-Package pdftex.def Info: ./assets/201806021729.png  used on input line 111.
-(pdftex.def)             Requested size: 469.75502pt x 245.36249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
 
  []
 
-[3 <./assets/201806021727.png> <./assets/201806021728.png> <./assets/2018060217
-29.png>]
-<./assets/201806021730.png, id=24, 1460.45625pt x 412.54124pt>
-File: ./assets/201806021730.png Graphic file (type png)
-<use ./assets/201806021730.png>
-Package pdftex.def Info: ./assets/201806021730.png  used on input line 127.
-(pdftex.def)             Requested size: 469.75502pt x 132.68944pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-[4 <./assets/201806021730.png>] (./pset1.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+[2 <./assets/201805201646.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+<./assets/201805201648.png, id=23, 794.97pt x 59.22125pt>
+File: ./assets/201805201648.png Graphic file (type png)
+<use ./assets/201805201648.png>
+Package pdftex.def Info: ./assets/201805201648.png  used on input line 140.
+(pdftex.def)             Requested size: 469.75502pt x 34.99533pt.
+<./assets/201805201649.png, id=24, 793.96625pt x 268.00125pt>
+File: ./assets/201805201649.png Graphic file (type png)
+<use ./assets/201805201649.png>
+Package pdftex.def Info: ./assets/201805201649.png  used on input line 141.
+(pdftex.def)             Requested size: 469.75502pt x 158.56918pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+[3 <./assets/201805201648.png> <./assets/201805201649.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+PGFPlots: reading {pset1.csv}
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+<./assets/201805201650.png, id=32, 792.9625pt x 406.51875pt>
+File: ./assets/201805201650.png Graphic file (type png)
+<use ./assets/201805201650.png>
+Package pdftex.def Info: ./assets/201805201650.png  used on input line 213.
+(pdftex.def)             Requested size: 469.75502pt x 240.83025pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+[5 <./assets/201805201650.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+[7]
+<./assets/201805201651.png, id=44, 793.96625pt x 226.8475pt>
+File: ./assets/201805201651.png Graphic file (type png)
+<use ./assets/201805201651.png>
+Package pdftex.def Info: ./assets/201805201651.png  used on input line 310.
+(pdftex.def)             Requested size: 469.75502pt x 134.2196pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
+
+ []
+
+[8 <./assets/201805201651.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 333--335
+
+ []
+
+[9]
+<./assets/201805201652.png, id=51, 794.97pt x 448.67625pt>
+File: ./assets/201805201652.png Graphic file (type png)
+<use ./assets/201805201652.png>
+Package pdftex.def Info: ./assets/201805201652.png  used on input line 349.
+(pdftex.def)             Requested size: 469.75502pt x 265.13431pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
+
+ []
+
+[10 <./assets/201805201652.png>] (./pset1.aux) ) 
 Here is how much of TeX's memory you used:
- 23015 strings out of 492982
- 584668 string characters out of 6138579
- 784581 words of memory out of 5000000
- 26168 multiletter control sequences out of 15000+600000
- 7639 words of font info for 31 fonts, out of 8000000 for 9000
+ 23605 strings out of 492982
+ 600153 string characters out of 6138579
+ 794581 words of memory out of 5000000
+ 26740 multiletter control sequences out of 15000+600000
+ 14149 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,6n,119p,726b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb>
-Output written on pset1.pdf (4 pages, 748622 bytes).
+ 69i,17n,119p,726b,2228s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on pset1.pdf (10 pages, 340252 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

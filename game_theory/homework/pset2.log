@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  2 JUN 2018 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  14 JUN 2018 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -578,34 +578,85 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (./pset2.aux)
+))) (/usr/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty
+(/usr/share/texmf-dist/tex/latex/tikz-qtree/pgftree.sty
+(/usr/share/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.sty
+(/usr/share/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.tex
+\pgf@subpicminx=\dimen192
+\pgf@subpicminy=\dimen193
+\pgf@subpicmaxx=\dimen194
+\pgf@subpicmaxy=\dimen195
+))
+(/usr/share/texmf-dist/tex/latex/tikz-qtree/pgftree.tex
+\levelsep=\dimen196
+\subtreesep=\dimen197
+\smuggle@levelsep=\dimen198
+\smuggle@subtreesep=\dimen199
+\this@levelsep=\dimen256
+\this@subtreesep=\dimen257
+\pgftree@childx=\dimen258
+\pgftree@savechildx=\dimen259
+\pgftree@childy=\dimen260
+\pgftree@savechildy=\dimen261
+\pgftree@childi=\count139
+\pgftree@savechildi=\count140
+\pgftree@level=\count141
+\pgftree@depth=\dimen262
+\pgf@subpic@hbox@children=\box67
+\pgf@subpic@minx@children=\dimen263
+\pgf@subpic@miny@children=\dimen264
+\pgf@subpic@maxx@children=\dimen265
+\pgf@subpic@maxy@children=\dimen266
+\pgftree@lastchildx=\dimen267
+\pgftree@lastchildy=\dimen268
+))
+(/usr/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.tex
+\@result=\toks46
+\child@list=\toks47
+\root@node=\toks48
+))
+(/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen269
+\extrarowheight=\dimen270
+\NC@list=\toks49
+\extratabsurround=\skip52
+\backup@length=\skip53
+)
+\everycr=\toks50
+\minrowclearance=\skip54
+) (./pset2.aux)
 \openout1 = `pset2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
-\scratchdimen=\dimen192
-\scratchbox=\box67
-\nofMPsegments=\count140
-\nofMParguments=\count141
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count142
-\MPscratchDim=\dimen193
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count142
+\scratchdimen=\dimen271
+\scratchbox=\box68
+\nofMPsegments=\count143
+\nofMParguments=\count144
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen272
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -696,16 +747,16 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 51.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 54.
 (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -713,97 +764,172 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <./assets/201806021724.png, id=4, 1462.46375pt x 512.91624pt>
 File: ./assets/201806021724.png Graphic file (type png)
 <use ./assets/201806021724.png>
-Package pdftex.def Info: ./assets/201806021724.png  used on input line 56.
+Package pdftex.def Info: ./assets/201806021724.png  used on input line 59.
 (pdftex.def)             Requested size: 469.75502pt x 164.75484pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
-
-<./assets/201806021725.png, id=5, 1465.475pt x 749.80125pt>
-File: ./assets/201806021725.png Graphic file (type png)
-<use ./assets/201806021725.png>
-Package pdftex.def Info: ./assets/201806021725.png  used on input line 76.
-(pdftex.def)             Requested size: 469.75502pt x 240.34174pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-<./assets/201806021726.png, id=6, 1444.39626pt x 811.03pt>
-File: ./assets/201806021726.png Graphic file (type png)
-<use ./assets/201806021726.png>
-Package pdftex.def Info: ./assets/201806021726.png  used on input line 85.
-(pdftex.def)             Requested size: 469.75502pt x 263.76726pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/201806021724.png>
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-[2 <./assets/201806021725.png> <./assets/201806021726.png>]
-<./assets/201806021727.png, id=18, 1464.47125pt x 510.90875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
+
+ []
+
+[3]
+<./assets/201806021725.png, id=25, 1465.475pt x 749.80125pt>
+File: ./assets/201806021725.png Graphic file (type png)
+<use ./assets/201806021725.png>
+Package pdftex.def Info: ./assets/201806021725.png  used on input line 166.
+(pdftex.def)             Requested size: 469.75502pt x 240.34174pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--183
+
+ []
+
+[4 <./assets/201806021725.png>]
+<./assets/201806021726.png, id=30, 1444.39626pt x 811.03pt>
+File: ./assets/201806021726.png Graphic file (type png)
+<use ./assets/201806021726.png>
+Package pdftex.def Info: ./assets/201806021726.png  used on input line 198.
+(pdftex.def)             Requested size: 469.75502pt x 263.76726pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+[5 <./assets/201806021726.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 300.
+
+<./assets/201806021727.png, id=34, 1464.47125pt x 510.90875pt>
 File: ./assets/201806021727.png Graphic file (type png)
 <use ./assets/201806021727.png>
-Package pdftex.def Info: ./assets/201806021727.png  used on input line 101.
+Package pdftex.def Info: ./assets/201806021727.png  used on input line 313.
 (pdftex.def)             Requested size: 469.75502pt x 163.88393pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 316--318
 
  []
 
-<./assets/201806021728.png, id=19, 1461.46pt x 44.165pt>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 318.
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 318.
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+[7 <./assets/201806021727.png>] [8] [9] [10]
+<./assets/201806021728.png, id=52, 1461.46pt x 44.165pt>
 File: ./assets/201806021728.png Graphic file (type png)
 <use ./assets/201806021728.png>
-Package pdftex.def Info: ./assets/201806021728.png  used on input line 110.
+Package pdftex.def Info: ./assets/201806021728.png  used on input line 511.
 (pdftex.def)             Requested size: 469.75502pt x 14.19576pt.
-<./assets/201806021729.png, id=20, 1460.45625pt x 762.85pt>
+<./assets/201806021729.png, id=53, 1460.45625pt x 762.85pt>
 File: ./assets/201806021729.png Graphic file (type png)
 <use ./assets/201806021729.png>
-Package pdftex.def Info: ./assets/201806021729.png  used on input line 111.
+Package pdftex.def Info: ./assets/201806021729.png  used on input line 512.
 (pdftex.def)             Requested size: 469.75502pt x 245.36249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 
  []
 
-[3 <./assets/201806021727.png> <./assets/201806021728.png> <./assets/2018060217
-29.png>]
-<./assets/201806021730.png, id=24, 1460.45625pt x 412.54124pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+
+ []
+
+[11 <./assets/201806021728.png> <./assets/201806021729.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
+
+ []
+
+<./assets/201806021730.png, id=57, 1460.45625pt x 412.54124pt>
 File: ./assets/201806021730.png Graphic file (type png)
 <use ./assets/201806021730.png>
-Package pdftex.def Info: ./assets/201806021730.png  used on input line 127.
+Package pdftex.def Info: ./assets/201806021730.png  used on input line 652.
 (pdftex.def)             Requested size: 469.75502pt x 132.68944pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 655--656
 
  []
 
-[4 <./assets/201806021730.png>] (./pset2.aux) ) 
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
+
+ []
+
+[13 <./assets/201806021730.png>] [14] [15] (./pset2.aux) ) 
 Here is how much of TeX's memory you used:
- 23015 strings out of 492982
- 584668 string characters out of 6138579
- 784581 words of memory out of 5000000
- 26168 multiletter control sequences out of 15000+600000
- 7639 words of font info for 31 fonts, out of 8000000 for 9000
+ 24782 strings out of 492982
+ 619624 string characters out of 6138579
+ 801581 words of memory out of 5000000
+ 27899 multiletter control sequences out of 15000+600000
+ 13448 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,6n,119p,726b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb>
-Output written on pset2.pdf (4 pages, 748622 bytes).
+ 69i,17n,119p,726b,2321s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on pset2.pdf (15 pages, 861334 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
