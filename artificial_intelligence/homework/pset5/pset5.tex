@@ -46,145 +46,65 @@
 %                         Start here
 % --------------------------------------------------------------
  
-\title{Problem Set 3}%replace with the appropriate homework number
+\title{Problem Set 5}%replace with the appropriate homework number
 \author{Basil R. Yap\\ %replace with your name
 50.021 Artificial Intelligence - Term 8} %if necessary, replace with your course title
-\date{May 27, 2018}
+\date{June 19, 2018}
 \maketitle
 %Below is an example of the problem environment
 
 \section{Theory Component}
 % Question 1
 \begin{figure}[h!]
-\includegraphics[width=\linewidth]{./assets/201806022206.png}
+\includegraphics[width=\linewidth]{./assets/201806300414.png}
 \end{figure}
-\begin{enumerate}[label=\alph*)]
-\item What is the total size of $C$'s output feature map?
-\item What is the total size of $P$'s output feature map? 
-\end{enumerate}
-\begin{figure}[h!]
-\includegraphics[width=\linewidth]{./assets/201806022208.png}
-\end{figure}
-\begin{enumerate}
-\item[c)] How many FLOPs layer $C$ and $P$ cost in total to do one forward pass?
-\end{enumerate}
-
 \pagebreak
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201806300418.png}
+\end{figure}
 
 \begin{solution}{}~
-\begin{enumerate}[label=\alph*)]
-\item Output size: $O=\left\lfloor\frac{(W-K+2P)}{S}\right\rfloor+1$\\
-$\begin{array}{rl}
-O: & \text{Output size}\\
-W: & \text{Input size}\\
-K: & \text{Filter size}\\
-P: & \text{Padding}\\
-S: & \text{Stride}
-\end{array}$\\
-
-$\begin{aligned}
-O&=\left\lfloor\frac{14-4+2}{2}\right\rfloor+1\\
-&=7
-\end{aligned}$\\
-
-Size of $C$'s feature map: $7\times7\times12=588$
-\item Output size: $O=\left\lfloor\frac{W-K}{S}\right\rfloor+1$\\
-$\begin{array}{rl}
-O: & \text{Output size}\\
-W: & \text{Input size}\\
-K: & \text{Filter size}\\
-S: & \text{Stride}
-\end{array}$\\
-
-$\begin{aligned}
-O&=\left\lfloor\frac{7-3}{2}\right\rfloor+1\\
-&=3
-\end{aligned}$\\
-
-Size of $C$'s feature map: $3\times3\times12=108$
-\item One convolution filter operation:\\
-\begin{align*}
-CF &= \text{Filter size}+(\text{Filter size}-1)\\
-&= 16+15\\
-&= 31
-\end{align*}
-One convolution operation:\\
-\begin{align*}
-C &= CF \times \text{Output size}\\
-&= 31 \times 49\\
-&= 1519
-\end{align*}
-One ReLU operation:\\
-\begin{align*}
-R &= \text{Input size}\\
-&= 7\times7\\
-&= 49
-\end{align*}
-One max pooling operation:\\
-\begin{align*}
-MP &= (\text{Filter size}-1)\times\text{Output size}\\
-&= 8\times9\\
-&= 72 
-\end{align*}
-Total FLOPs:\\
-\begin{align*}
-\text{Total} &= (C+R)\times\text{Number of filters}\times\text{Channels}+MP\times\text{Number of filters}\\
-&= (1519+49)\times12\times30+72\times12\\
-&= 565344
-\end{align*}
+\begin{enumerate}
+\item The parts with the largest magnitude from zero lies at the rightmost and leftmost parts of the circle. The rightmost having the most negative value, while the leftmost has the most positive value.
+\item That location will have zero in value, as the values at that point would have values which are symmetrical along the columns of the filter. The filter, having equal negative and positive multiplier, will result in a zero sum when convoluted.
 \end{enumerate}
 \end{solution}
-\pagebreak
+
 % Question 2
 \begin{figure}[h!]
-\includegraphics[width=\linewidth]{./assets/201806022242.png}
-\includegraphics[width=\linewidth]{./assets/201806022243.png}
+\includegraphics[width=\linewidth]{./assets/201806300415.png}
+\end{figure}
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201806300416.png}
+\end{figure}
+\pagebreak
+\begin{solution}{}~
+\begin{enumerate}
+\item Cannot result in blurring effect. This filter takes a huge weight for the central pixel in relation to surrounding pixels, preserving the overall contrast of the image but inverting its colour. This filter may result in sharper contrast than the original image.
+\item Can result in blurring effect. This filter averages the value of the central pixel indiscriminately with other pixels from the bottom right region. Blurring will occur toward the bottom and right side of the image.
+\item Cannot result in blurring effect. Given a vertical edge, the filter has a high likelihood of returning zero or close to zero in value. The low value regions will create huge contrast and not contribute to a blurring effect. This filter is used to detect horizontal edges while downsampling the resolution of the image.
+\item Can result in blurring effect. This filter averages the value of the central pixel with all other pixels in the filter, but with emphasis on the central pixel and the pixels surrounding it. 
+\end{enumerate}
+\end{solution}
+
+
+% Question 3
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201806300417.png}
 \end{figure}
 
 \begin{solution}{}~
-\begin{align*}
-h(x)&=\frac{1}{1+e^{-x}}\\
-h'(x)&=\frac{\delta h(x)}{\delta x}\\
-&=\frac{e^{-x}}{(1+e^{-x})^2}\\
-&=\frac{(1+e^{-x})-1}{(1+e^{-x})^2}\\
-&=\frac{1}{1+e^{-x}}-\frac{1}{(1+e^{-x})^{2}}\\
-&=h(x)-h(x)^2
-\end{align*}
-\begin{align*}
-\frac{\delta z_1}{\delta w_{(x,1)}}&=xh'(x\cdot w_{(x,1)})\\
-\text{The value of $z_1$ does not change}&\text{ with respect to }w_{(1,2)}\text{ and }w_{(1,3)},\\
-\therefore\frac{\delta z_2}{\delta w_{(1,2)}}&=z_1h'(z_1\cdot w_{(1,2)})\\
-\therefore\frac{\delta z_3}{\delta w_{(1,3)}}&=z_1h'(z_1\cdot w_{(1,3)})\\
-\end{align*}
-\begin{align*}
-E &= \sum_{i\in data}((z_2-y_{2i})^2+(z_3-y_{3i})^2)\\
-\frac{\delta E}{\delta z_2} &= \sum_{i\in data}2(z_2-y_{2i})\\
-\frac{\delta E}{\delta z_3} &= \sum_{i\in data}2(z_3-y_{3i})\\
-\frac{\delta z_2}{\delta z_1} &= w_{(1,2)}h'(z_1\cdot w_{(1,2)})\\
-\frac{\delta z_3}{\delta z_1} &= w_{(1,3)}h'(z_1\cdot w_{(1,3)})
-\end{align*}
-\begin{align*}
-\frac{\delta E}{\delta w_{(1,2)}} &= \frac{\delta E}{\delta z_2}\frac{\delta z_2}{\delta w_{(1,2)}}\\
-&= z_1h'(z_1\cdot w_{(1,2)})\sum_{i\in data}2(z_2-y_{2i})\\
-&= z_1(h(z_1\cdot w_{(1,2)})-h(z_1\cdot w_{(1,2)})^2)\sum_{i\in data}2(z_2-y_{2i})
-\end{align*}
-\begin{align*}
-\frac{\delta E}{\delta w_{(1,3)}} &= \frac{\delta E}{\delta z_3}\frac{\delta z_3}{\delta w_{(1,3)}}\\
-&= z_1h'(z_1\cdot w_{(1,3)})\sum_{i\in data}2(z_3-y_{3i})\\
-&= z_1(h(z_1\cdot w_{(1,3)})-h(z_1\cdot w_{(1,3)})^2)\sum_{i\in data}2(z_3-y_{3i})
-\end{align*}
-\begin{align*}
-\frac{\delta E}{\delta w_{(x,1)}} &= \frac{\delta E}{\delta z_2}\frac{\delta z_2}{\delta w_{(1,2)}}+\frac{\delta E}{\delta z_3}\frac{\delta z_3}{\delta w_{(1,3)}}\\
-&= \frac{\delta E}{\delta z_2}\frac{\delta z_2}{\delta z_1}\frac{\delta z_1}{\delta w_{(x,1)}}+\frac{\delta E}{\delta z_3}\frac{\delta z_3}{\delta z_1}\frac{\delta z_1}{\delta w_{(x,1)}}\\
-&= xw_{(1,2)}h'(z_1\cdot w_{(1,2)})h'(x\cdot w_{(x,1)})\sum_{i\in data}2(z_2-y_{2i})\\
-&+ xw_{(1,3)}h'(z_1\cdot w_{(1,3)})h'(x\cdot w_{(x,1)})\sum_{i\in data}2(z_3-y_{3i})\\
-&= xw_{(1,2)}(h(z_1\cdot w_{(1,2)})-h(z_1\cdot w_{(1,2)})^2)(h(x\cdot w_{(x,1)})-h(x\cdot w_{(x,1)})^2)\sum_{i\in data}2(z_2-y_{2i})\\
-&+ xw_{(1,3)}(h(z_1\cdot w_{(1,3)})-h(z_1\cdot w_{(1,3)})^2)(h(x\cdot w_{(x,1)})-h(x\cdot w_{(x,1)})^2)\sum_{i\in data}2(z_3-y_{3i})
-\end{align*}
+\begin{enumerate}
+\item Does not suffer greatly from the vanishing gradient problem. Backpropagation only occurs back one layer.
+\item Suffers greatly from vanishing gradient problem. With a significant number of layers, the changes to the gradient of earlier layers are greatly diminished.
+\item Suffers greatly from vanishing gradient problem. Due to the time component of the RNN, backpropagation through time has more parameters to consider at each step and results in the gradients of earlier layers to change less.
+\item Does not suffer greatly from the vanishing gradient problem. Due to the presence of the forget gate in LSTM, the change in gradient remains constant in recurrence and will not vanish as it propagates back to the earlier layers. 
+\item Does not suffer greatly from the vanishing gradient problem. With the identity shortcut connection, the gradients of earlier layers would be less likely to be heavily diminished during backpropagation through many layers.
+\end{enumerate}
 \end{solution}
 
 \section{Coding Component}
 
-\lstinputlisting[language=Python]{pset3.py}
+\lstinputlisting[language=Python]{pset5.py}
 
 \end{document}
