@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  2 JUN 2018 23:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.22)  8 JUN 2018 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,47 +762,113 @@ File: ./assets/201806022208.png Graphic file (type png)
 <use ./assets/201806022208.png>
 Package pdftex.def Info: ./assets/201806022208.png  used on input line 66.
 (pdftex.def)             Requested size: 469.75502pt x 121.78723pt.
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/201806022206.png>
+ <./assets/201806022208.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 76--84
 
  []
 
-<./assets/201806022242.png, id=6, 1360.08125pt x 742.775pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
+
+ []
+
+[3]
+<./assets/201806022242.png, id=26, 1360.08125pt x 742.775pt>
 File: ./assets/201806022242.png Graphic file (type png)
 <use ./assets/201806022242.png>
-Package pdftex.def Info: ./assets/201806022242.png  used on input line 84.
+Package pdftex.def Info: ./assets/201806022242.png  used on input line 140.
 (pdftex.def)             Requested size: 469.75502pt x 256.54099pt.
-<./assets/201806022243.png, id=7, 1355.0625pt x 523.9575pt>
+<./assets/201806022243.png, id=27, 1355.0625pt x 523.9575pt>
 File: ./assets/201806022243.png Graphic file (type png)
 <use ./assets/201806022243.png>
-Package pdftex.def Info: ./assets/201806022243.png  used on input line 85.
+Package pdftex.def Info: ./assets/201806022243.png  used on input line 141.
 (pdftex.def)             Requested size: 469.75502pt x 181.63698pt.
+ [4 <./assets/201806022242.png> <./assets/201806022243.png>] [5]
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (./pset3.py
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
 
-[1
+Overfull \hbox (44.89409pt too wide) in paragraph at lines 25--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/201806022206.png>
- <./assets/201806022208.png>] [2 <./assets/201806022242.png> <./assets/20180602
-2243.png>] (./pset3.aux) ) 
+[6] [7]
+Overfull \hbox (51.94408pt too wide) in paragraph at lines 108--109
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[8]
+Overfull \hbox (51.94408pt too wide) in paragraph at lines 125--126
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [9] (./pset3.aux) ) 
 Here is how much of TeX's memory you used:
- 24704 strings out of 492982
- 617439 string characters out of 6138579
- 784581 words of memory out of 5000000
- 27817 multiletter control sequences out of 15000+600000
- 13433 words of font info for 54 fonts, out of 8000000 for 9000
+ 24999 strings out of 492982
+ 620905 string characters out of 6138579
+ 807581 words of memory out of 5000000
+ 28101 multiletter control sequences out of 15000+600000
+ 13895 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,6n,119p,722b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti12.pfb>
-Output written on pset3.pdf (2 pages, 313733 bytes).
+ 69i,13n,119p,722b,1611s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb>
+Output written on pset3.pdf (9 pages, 364614 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
