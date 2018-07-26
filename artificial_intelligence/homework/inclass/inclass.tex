@@ -46,68 +46,129 @@
 %                         Start here
 % --------------------------------------------------------------
  
-\title{Problem Set 6}%replace with the appropriate homework number
+\title{In-Class Assignment - CSP}%replace with the appropriate homework number
 \author{Basil R. Yap\\ %replace with your name
 50.021 Artificial Intelligence - Term 8} %if necessary, replace with your course title
-\date{June 27, 2018}
+\date{July 26, 2018}
 \maketitle
 %Below is an example of the problem environment
 
-\section{Theory Component}
 % Question 1
 \begin{figure}[h!]
-\includegraphics[width=\linewidth]{./assets/201606300427.png}
+\includegraphics[width=\linewidth]{./assets/201807261942.png}
 \end{figure}
 
-\begin{solution}{}~
-Stochastic Gradient Descent uses a constant step size, this results in variable learning rates depending on the gradient of the minibatch. The learning rate is prone to extreme changes in learning rate when the gradient changes drastically.\\
-
-AdaGrad tries to overcome this problem by taking the root mean square of the current gradient and previous gradients, the number of gradients considered is determined by the size of the cache. With a larger cache size, the slower the descent and the more tolerant the descent is to extreme changes in gradients.
+\begin{solution}{}~\\
+The sequence of the pure backtracking search are as follows:\begin{enumerate}
+\item 1R
+\item 1R2B
+\item 1R2B3B [INVALID]
+\item 1R2B3G
+\item 1R2B3G4B [INVALID]
+\item 1R2G
+\item 1R2G3B
+\item 1R2G3B4B [INVALID]
+\item 1R2G3G
+\item 1R2G3G4B [STOP / SOLVED]
+\end{enumerate}
 \end{solution}
-
-\pagebreak
 
 % Question 2
 \begin{figure}[h!]
-\includegraphics[width=\linewidth]{./assets/201606300428.png}
+\includegraphics[width=\linewidth]{./assets/201807261943.png}
+\end{figure}
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201807261944.png}
 \end{figure}
 
-\begin{solution}{}~
-\begin{enumerate}
-\item False, the forward pass is affected by $f_t$, $i_t$ and $o_t$.
-\item False, gradient update is affected by $i_t$ and $o_t$.
-\item True, all three values are the output of sigmoid functions, which range $[0,1)$.
-\item False, the sigmoid function maps the input space of $[0,\infty)$ to $[0,1)$. So, the entries do not sum to 1 and once passed through the sigmoid function never reaches 1. 
+\begin{solution}{}~\\
+The sequence of the pure backtracking search are as follows:\begin{enumerate}
+\item 1R
+\item 1R2B [INVALID]
+\item 1R2G 
+\item 1R2G3B [INVALID]
+\item 1R2G3G 
+\item 1R2G3G4B [STOP / SOLVED]
+\item 1B
+\item 1B2G
+\item 1B2G3G
+\item 1B2G3G4B [STOP / SOLVED]
 \end{enumerate}
 \end{solution}
 
 % Question 3
 \begin{figure}[h!]
-\includegraphics[width=\linewidth]{./assets/201606300429.png}
+\includegraphics[width=\linewidth]{./assets/201807261945.png}
 \end{figure}
 
 \begin{solution}{}~
-\begin{enumerate}
-\item ~
+\begin{center}
+\begin{tabular}{| c | l | l |}
+\hline
+V1-V2 & D1 = RGB & D2 = GB\\
+V1-V3 & D1 = RGB & D3 = GB\\
+V2-V4 & D2 = G & D4 = B\\
+V3-V4 & D3 = G & D4 = B\\
+V1-V2 & D1 = RB & D2 = G\\
+V1-V3 & D1 = RB & D3 = G\\
+\hline
+\end{tabular}
+\end{center}
+\end{solution}
+\pagebreak
+% Question 4
 \begin{figure}[h!]
-\includegraphics[width=\linewidth]{./assets/201807051113.png}
+\includegraphics[width=\linewidth]{./assets/201807261946.png}
 \end{figure}
-\item
-\begin{align*}
-d_{W^z} = d_h \times d_x\\
-d_{U^z} = d_h \times d_h\\
-d_{W^r} = d_h \times d_x\\
-d_{U^r} = d_h \times d_h\\
-d_{U} = d_h \times d_h 
-\end{align*} 
-
-
-\item GRU utilises two gates instead of three. By removing the memory unit present in the LSTM, GRU requires less parameters in order to train. Given a problem where the difference in performance of a single GRU and LSTM cell are negligible, GRU would be more computationally efficient than LSTM. This should be the case for models where long-term memory does not have a significant impact on future values. 
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201807261947.png}
+\end{figure}
+\pagebreak
+\begin{solution}{}~
+\begin{enumerate}
+\item True
+\item False
+\item True
+\item True
+\item False
+\item False
+\item True
+\item True
+\item True
+\item False
+\item True
 \end{enumerate}
 \end{solution}
 
-\section{Coding Component}
+% Question 5
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201807261948.png}
+\end{figure}
+\pagebreak
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201807261949.png}
+\end{figure}
+\pagebreak
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201807261950.png}
+\end{figure}
 
-\lstinputlisting[language=Python]{pset6.py}
+\begin{solution}{}~\\
+
+\lstinputlisting[language=Python]{semi-magic.py}
+
+\textbf{Sequence produced: 123231312}
+\end{solution}
+
+% Question 6
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{./assets/201807261951.png}
+\end{figure}
+\pagebreak
+\begin{solution}{}~\\
+\textbf{INCOMPLETE, TO BE COMPLETED.}
+\end{solution}
+
+%\lstinputlisting[language=Python]{pset5.py}
 
 \end{document}

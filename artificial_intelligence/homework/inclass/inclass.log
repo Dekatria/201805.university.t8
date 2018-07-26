@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.2)  6 JUL 2018 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.2)  27 JUL 2018 04:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**pset5.tex
-(./pset5.tex
+**inclass.tex
+(./inclass.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -624,8 +624,8 @@ gflibraryintersections.code.tex
 \pgf@intersect@solutions=\count149
 ))))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decoration
-s.softclip.code.tex)) (./pset5.aux)
-\openout1 = `pset5.aux'.
+s.softclip.code.tex)) (./inclass.aux)
+\openout1 = `inclass.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
@@ -758,104 +758,142 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./assets/201806300414.png, id=4, 1368.11125pt x 620.3175pt>
-File: ./assets/201806300414.png Graphic file (type png)
-<use ./assets/201806300414.png>
-Package pdftex.def Info: ./assets/201806300414.png  used on input line 59.
-(pdftex.def)             Requested size: 469.75502pt x 212.98752pt.
+<./assets/201807261942.png, id=4, 971.63pt x 581.17125pt>
+File: ./assets/201807261942.png Graphic file (type png)
+<use ./assets/201807261942.png>
+Package pdftex.def Info: ./assets/201807261942.png  used on input line 58.
+(pdftex.def)             Requested size: 469.75502pt x 280.97205pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/201806300414.png>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/201807261942.png>
 ]
-<./assets/201806300418.png, id=13, 1342.01375pt x 751.80875pt>
-File: ./assets/201806300418.png Graphic file (type png)
-<use ./assets/201806300418.png>
-Package pdftex.def Info: ./assets/201806300418.png  used on input line 63.
-(pdftex.def)             Requested size: 469.75502pt x 263.15994pt.
-<./assets/201806300415.png, id=14, 1382.16376pt x 292.09125pt>
-File: ./assets/201806300415.png Graphic file (type png)
-<use ./assets/201806300415.png>
-Package pdftex.def Info: ./assets/201806300415.png  used on input line 75.
-(pdftex.def)             Requested size: 469.75502pt x 99.26959pt.
-<./assets/201806300416.png, id=15, 804.00375pt x 952.55875pt>
-File: ./assets/201806300416.png Graphic file (type png)
-<use ./assets/201806300416.png>
-Package pdftex.def Info: ./assets/201806300416.png  used on input line 78.
-(pdftex.def)             Requested size: 469.75502pt x 556.53969pt.
+<./assets/201807261943.png, id=13, 977.6525pt x 168.63pt>
+File: ./assets/201807261943.png Graphic file (type png)
+<use ./assets/201807261943.png>
+Package pdftex.def Info: ./assets/201807261943.png  used on input line 78.
+(pdftex.def)             Requested size: 469.75502pt x 81.02638pt.
+<./assets/201807261944.png, id=14, 948.54375pt x 215.80624pt>
+File: ./assets/201807261944.png Graphic file (type png)
+<use ./assets/201807261944.png>
+Package pdftex.def Info: ./assets/201807261944.png  used on input line 81.
+(pdftex.def)             Requested size: 469.75502pt x 106.87546pt.
+<./assets/201807261945.png, id=15, 966.61125pt x 612.2875pt>
+File: ./assets/201807261945.png Graphic file (type png)
+<use ./assets/201807261945.png>
+Package pdftex.def Info: ./assets/201807261945.png  used on input line 101.
+(pdftex.def)             Requested size: 469.75502pt x 297.55702pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <./assets/201806300418.png> <./assets/201806300415.png>] [3 <./assets/201806
-300416.png>]
-<./assets/201806300417.png, id=22, 1377.145pt x 416.55624pt>
-File: ./assets/201806300417.png Graphic file (type png)
-<use ./assets/201806300417.png>
-Package pdftex.def Info: ./assets/201806300417.png  used on input line 93.
-(pdftex.def)             Requested size: 469.75502pt x 142.09123pt.
- (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+[2 <./assets/201807261943.png> <./assets/201807261944.png>] [3 <./assets/201807
+261945.png>]
+<./assets/201807261946.png, id=22, 877.2775pt x 839.135pt>
+File: ./assets/201807261946.png Graphic file (type png)
+<use ./assets/201807261946.png>
+Package pdftex.def Info: ./assets/201807261946.png  used on input line 121.
+(pdftex.def)             Requested size: 469.75502pt x 449.33612pt.
+<./assets/201807261947.png, id=23, 891.33pt x 602.25pt>
+File: ./assets/201807261947.png Graphic file (type png)
+<use ./assets/201807261947.png>
+Package pdftex.def Info: ./assets/201807261947.png  used on input line 124.
+(pdftex.def)             Requested size: 469.75502pt x 317.399pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./assets/201807261946.png>]
+<./assets/201807261948.png, id=27, 936.49875pt x 585.18625pt>
+File: ./assets/201807261948.png Graphic file (type png)
+<use ./assets/201807261948.png>
+Package pdftex.def Info: ./assets/201807261948.png  used on input line 145.
+(pdftex.def)             Requested size: 469.75502pt x 293.5389pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./assets/201807261947.png>]
+<./assets/201807261949.png, id=31, 1057.9525pt x 497.86pt>
+File: ./assets/201807261949.png Graphic file (type png)
+<use ./assets/201807261949.png>
+Package pdftex.def Info: ./assets/201807261949.png  used on input line 149.
+(pdftex.def)             Requested size: 469.75502pt x 221.057pt.
+ [6 <./assets/201807261948.png> <./assets/201807261949.png>]
+<./assets/201807261950.png, id=35, 975.645pt x 369.38pt>
+File: ./assets/201807261950.png Graphic file (type png)
+<use ./assets/201807261950.png>
+Package pdftex.def Info: ./assets/201807261950.png  used on input line 153.
+(pdftex.def)             Requested size: 469.75502pt x 177.85274pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (./semi-magic.py
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2.
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-(./pset5.py [4 <./assets/201806300417.png>]
-Overfull \hbox (30.79411pt too wide) in paragraph at lines 21--22
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+
+Overfull \hbox (73.09404pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+
+Overfull \hbox (51.94408pt too wide) in paragraph at lines 9--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (37.8441pt too wide) in paragraph at lines 10--11
 [][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (58.99406pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (58.99406pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (207.04381pt too wide) in paragraph at lines 25--26
-[][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (80.14403pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
+[7 <./assets/201807261950.png>])
+<./assets/201807261951.png, id=42, 969.6225pt x 764.8575pt>
+File: ./assets/201807261951.png Graphic file (type png)
+<use ./assets/201807261951.png>
+Package pdftex.def Info: ./assets/201807261951.png  used on input line 165.
+(pdftex.def)             Requested size: 469.75502pt x 370.55862pt.
 
-Overfull \hbox (143.59392pt too wide) in paragraph at lines 26--27
-[][][][][][][][][][][][][] 
- []
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Overfull \hbox (58.99406pt too wide) in paragraph at lines 27--28
-[][][][][][][][][] 
- []
-
-[5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
- (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
-
-Overfull \hbox (2.59416pt too wide) in paragraph at lines 74--77
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[6]
-Overfull \hbox (51.94408pt too wide) in paragraph at lines 92--93
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) [7] (./pset5.aux) ) 
+[8] [9 <./assets/201807261951.png>] (./inclass.aux) ) 
 Here is how much of TeX's memory you used:
- 25474 strings out of 492649
- 628369 string characters out of 6135779
- 818086 words of memory out of 5000000
- 28887 multiletter control sequences out of 15000+600000
- 13433 words of font info for 54 fonts, out of 8000000 for 9000
+ 25456 strings out of 492649
+ 628538 string characters out of 6135779
+ 817452 words of memory out of 5000000
+ 28863 multiletter control sequences out of 15000+600000
+ 12827 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,6n,119p,722b,1752s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmti12.pfb>
-Output written on pset5.pdf (7 pages, 499179 bytes).
+ 69i,6n,119p,724b,1800s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on inclass.pdf (9 pages, 929129 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
